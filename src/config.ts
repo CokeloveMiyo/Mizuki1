@@ -1,4 +1,4 @@
-﻿import type {
+import type {
 	AnnouncementConfig,
 	CommentConfig,
 	ExpressiveCodeConfig,
@@ -686,7 +686,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 			"不要那样欺负我！",
 		], // 触摸提示
 		home: "点击此处回到主页!", // 首页提示
-		skin: ["看我的新服装~"], // 换装提示
+		skin: ["看我的新服装~", "怎么样，好看吗？"], // 换装提示 [切换前, 切换后]
 		close: "QWQ 下次再见~", // 关闭提示
 		link: "https://github.com/CokeloveMiyo", // 关于链接
 	},
