@@ -34,7 +34,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 54, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 57, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
@@ -289,6 +289,32 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "fa7-brands:bilibili",
 				},
+
+
+
+				{
+					name: "QQ",
+					url: "https://qm.qq.com/q/3PZqoU1Tra",
+					external: true,
+					icon: "simple-icons:qq",
+				},
+
+
+				{
+					name: "邮箱",
+					url: "mailto:qunrui5201314@gmail.com",
+					external: true,
+					icon: "mdi:email",
+				},
+
+
+
+				{
+					name: "抖音",
+					url: "https://v.douyin.com/VQVidSAsDZ0/ 5@9.com :3pm",
+					external: true,
+					icon: "fa7-brands:tiktok",
+				},
 				
 			],
 		},
@@ -398,7 +424,7 @@ export const profileConfig: ProfileConfig = {
 export const licenseConfig: LicenseConfig = {
 	enable: true,
 	name: "CC BY-NC-SA 4.0",
-	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+	url: "https://work.weixin.qq.com/kfid/kfcb2eb5c0c4c99817c",
 };
 
 // Permalink 固定链接配置
@@ -465,14 +491,14 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "", // 公告标题，填空使用i18n字符串Key.announcement
+	title: "注意！！！大三了", // 公告标题，填空使用i18n字符串Key.announcement
 	content: "实习时间到", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "了解更多", // 链接文本
-		url: "/about/", // 链接 URL
-		external: false, // 内部链接
+		text: "到底该怎么实习？？？", // 链接文本
+		url: "https://work.weixin.qq.com/kfid/kfcb2eb5c0c4c99817c", // 链接 URL
+		external: true, // 内部链接
 	},
 };
 
