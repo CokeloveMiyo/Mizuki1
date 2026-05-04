@@ -57,7 +57,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "Drose",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-		icon: "assets/home/3.png",
+		icon: "assets/home/logo.jpg",
 		// 网站Logo图片路径
 		logo: "assets/home/4.png",
 	},
