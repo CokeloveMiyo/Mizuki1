@@ -34,7 +34,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 57, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 54, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
@@ -125,13 +125,13 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.png",
+				"/assets/desktop-banner/1.jpg",
 				"/assets/desktop-banner/2.jpg",
 				// "/assets/desktop-banner/3.webp",
 				// "/assets/desktop-banner/4.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.png",
+				"/assets/mobile-banner/1.jpg",
 				"/assets/mobile-banner/2.jpg",
 				// "/assets/mobile-banner/3.webp",
 				// "/assets/mobile-banner/4.webp",
@@ -245,13 +245,13 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.png",
+			"/assets/desktop-banner/1.jpg",
 			"/assets/desktop-banner/2.jpg",
 			// "/assets/desktop-banner/3.webp",
 			// "/assets/desktop-banner/4.webp",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/1.png",
+			"/assets/mobile-banner/1.jpg",
 			"/assets/mobile-banner/2.jpg",
 			// "/assets/mobile-banner/3.webp",
 			// "/assets/mobile-banner/4.webp",
@@ -289,12 +289,7 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "fa7-brands:bilibili",
 				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
+				
 			],
 		},
 		{
@@ -368,9 +363,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/2.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Drose",
-	bio: "放下心中万把尺 方见天地无限宽",
+	bio: "自知者不怨人 知命者不怨天",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -379,27 +374,23 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibili",
 			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/379217893",
 		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
+		
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/CokeloveMiyo",
 		},
 		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
+			name: "Wechat",
+			icon: "simple-icons:wechat",
+			url: "https://work.weixin.qq.com/kfid/kfcb2eb5c0c4c99817c",
 		},
-		{
-			name: "Discord",
-			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+		{	
+			name: "QQ",
+			icon: "simple-icons:qq",
+			url: "https://qm.qq.com/q/3PZqoU1Tra",
 		},
 	],
 };
