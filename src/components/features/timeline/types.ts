@@ -1,14 +1,14 @@
 export interface TimelineLink {
 	name: string;
 	url: string;
-	type: "website" | "certificate" | "project" | "other";
+	type: "AI" | "玄学" | "应用项目" | "命运";
 }
 
 export interface TimelineItem {
 	id: string;
 	title: string;
 	description: string;
-	type: "education" | "work" | "project" | "achievement";
+	type: "AI" | "玄学" | "应用项目" | "命运";
 	startDate: string;
 	endDate?: string;
 	location?: string;
