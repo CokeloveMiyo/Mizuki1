@@ -1,24 +1,48 @@
 {
 	"mode": "external",
-	"hidden": true,
-	"title": "外链相册示例",
-	"description": "这是一个使用外链图片的相册示例，所有图片都来自外部链接",
-	"date": "2025-08-28",
-	"location": "网络",
-	"tags": ["外链", "示例", "测试"],
+	"title": "美好瞬间",
+	"hidden": false,
+	"description": "记录生活中有趣的事情",
+	"date": "2026-05-06",
+	"location": "China",
+	"tags": ["旅游", "风景", "生活", "自然"],
 	"layout": "masonry",
 	"columns": 3,
-	"cover": "https://picsum.photos/800/600?random=1",
+	"cover": "https://bu.dusays.com/2026/05/03/69f73e511fcda.jpg",
 	"photos": [
 		{
 			"id": "external-1",
-			"src": "https://picsum.photos/800/600?random=2",
-			"alt": "随机图片 1",
-			"title": "美丽的风景",
-			"description": "这是一张来自外链的美丽风景图片",
-			"tags": ["风景", "自然"],
+			"src": "https://bu.dusays.com/2026/05/06/69fad2fcae1b1.jpg",
+			"alt": "吃美味的想见意面",
+			"date": "2026-05-05",
+			"location": "印江",
+			"title": "美食",
+			"description": "吃夜宵",
+			"tags": ["生活"],
 			"width": 800,
 			"height": 600
+		},
+
+
+		{
+            "id": "external-2",
+			"src": "https://bu.dusays.com/2026/05/06/69fad4e5c81da.jpg",
+			"alt": "在大学学校游玩",
+			"date": "2026-04-25",
+			"location": "贵州建设职业技术学院",
+			"title": "生活",
+			"description": "去打印东西，散步",
+			"tags": ["生活"],
+			"width": 800,
+			"height": 600
+
+
+
+
+
 		}
+
+		
+
 	]
 }
