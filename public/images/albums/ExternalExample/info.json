@@ -6,9 +6,9 @@
 	"date": "2026-05-06",
 	"location": "China",
 	"tags": ["旅游", "风景", "生活", "自然"],
-	"layout": "masonry",
+	"layout": "grid",
 	"columns": 3,
-	"cover": "https://bu.dusays.com/2026/05/03/69f73e511fcda.jpg",
+	"cover": "https://bu.dusays.com/2026/02/10/698b1c808a600.jpg",
 	"photos": [
 		{
 			"id": "external-1",
@@ -22,8 +22,6 @@
 			"width": 800,
 			"height": 600
 		},
-
-
 		{
             "id": "external-2",
 			"src": "https://bu.dusays.com/2026/05/06/69fad4e5c81da.jpg",
@@ -35,14 +33,8 @@
 			"tags": ["生活"],
 			"width": 800,
 			"height": 600
-
-
-
-
-
 		}
-
-		
-
 	]
 }
+
+
